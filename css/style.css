@@ -1,0 +1,53 @@
+/* header */
+.header{
+    background:white;
+    position:fixed;
+    width:100%;
+    z-index: 2;
+}
+
+.header .wrap{
+    /* background:yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+
+.header h1 img{
+    width:165px;
+}
+
+.header .menuWrap ul{
+    display:flex;
+    gap:100px;
+}
+
+/* visual */
+.visual{
+    background-color: skyblue;
+    height:100vh;
+    min-height:700px;
+    background-image: url(../img/b_g.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: url(../img/b_g.jpg) no-repeat center; */
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+/* content */
+.content01{
+    border:3px solid blue;
+    height:300px;
+    position:relative;
+}
+
+.c1{
+
+}
+
+
+
+/* footer */
