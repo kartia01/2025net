@@ -63,13 +63,24 @@
     margin-top:80px;
 }
 
-h6.tit{
-    background: url(../img/arrow.png) no-repeat 30% 50%;
+.t2{
+    background: url(../img/arrow.png) no-repeat 30% 55%;
+}
+
+.card a{
+    display:block;
+    width: 384px;
+    height: 450px;
+    transition: 0.3s;
+}
+
+.card a:hover{
+    transform:translate(0, -20px);
 }
 
 .card img{
-    width: 384px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
 }
 
 .card_body{
@@ -113,6 +124,47 @@ h6.tit{
 .content02 .box2{
     width:592px;
     height:360px;
+}
+
+.content03{
+    width: 100%;
+    height:900px;
+    background: #ececec;
+}
+
+.ct3{
+    position:relative;
+}
+
+.t3{
+    position:absolute;
+    left: 0;
+    top:80px;
+}
+
+ul.bt{
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right:0;
+    top:140px;
+}
+
+.cardWrap2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    transform: translate(0, 50%);
+}
+
+.card2{
+    background:white;
+    width:360px;
+    height: 446px;
 }
 
 /* footer */
