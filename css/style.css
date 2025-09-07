@@ -237,13 +237,13 @@ ul.list li a{
 }
 
 ul.flatform{
-    width:160px;
+    width:120px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     position:absolute;
     right:0;
-    top:150px;
+    top:170px;
 }
 
 ul.flatform li a{
