@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -28,11 +29,65 @@
     </div>
 
     <div class="visual">
-        <div class="container">
-            <h2 class="title">게임 아카데미</h2>
-            <h2 class="sub">미래의 꿈 게임에 담다</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide img1">
+                    <div class="textWrap container">
+                        <h2 class="title">게임소통학교</h2>
+                        <h2 class="sub">게임으로 소통하고 게임으로 가까워지는 가족</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide img2">
+                    <div class="textWrap container">
+                        <h2 class="title">전국 장애학생<br>e페스티벌</h2>
+                        <h2 class="sub">게임 안에서 하나가 되는 모두의 축제</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide img3">
+                    <div class="textWrap container">
+                        <h2 class="title">견학프로그램</h2>
+                        <h2 class="sub">나의 게임 산업 탐방기</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide img4">
+                    <div class="textWrap container">
+                        <h2 class="title">게임아카데미</h2>
+                        <h2 class="sub">미래의 꿈 게임에 담다</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide img5">
+                    <div class="textWrap container">
+                        <h2 class="title">어깨동무문고</h2>
+                        <h2 class="sub">다름을 이해하는 모두의 동화</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btnWrap">
+            <div class="prevbtn btn"><img src="./img/arrow.png" alt=""></div>
+            <div class="nextbtn btn"><img src="./img/arrow2.png" alt=""></div>
+            <div class="page"></div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            pagination: {
+                el: ".page",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".nextbtn",
+                prevEl: ".prevbtn",
+            },
+        });
+    </script>
 
     <div class="container content01">
         <h3 class="tit c1">문화를 만들고 인재를 키우고<br>마음을 나눕니다.</h3>
@@ -88,13 +143,13 @@
 
     <div class="content03">
         <div class="container ct3">
-                <h3 class="tit t3">재단소식</h3>
-    
-                <ul class="bt">
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">뉴스룸</a></li>
-                    <li><a href="#">소셜미디어</a></li>
-                </ul>
+            <h3 class="tit t3">재단소식</h3>
+
+            <ul class="bt">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">뉴스룸</a></li>
+                <li><a href="#">소셜미디어</a></li>
+            </ul>
             <div class="cardWrap2">
                 <div class="card2">
                     <h6 class="tit">2024년 기부금품 사용내역</h6>
@@ -104,12 +159,12 @@
                         모집 및 사용내역을 아래와 같이 게시합니다. 1.<br>
                         모집자 : 재단법인 넷마블문화재단 2. 모집등록번...
                     </p>
-    
+
                     <p class="date">
                         공지사항 · 2025.08.22
                     </p>
                 </div>
-    
+
                 <div class="card2">
                     <h6 class="tit">2024년 결산서류 등의 공시</h6>
                     <p class="text2">
@@ -118,12 +173,12 @@
                         공시의무)'에 의거 결산서류 등을 공시합니다. 해당<br>
                         내역은 국세청 홈택스(hometax.gokr)...
                     </p>
-    
+
                     <p class="date">
                         공지사항 · 2025.04.30
                     </p>
                 </div>
-    
+
                 <div class="card2">
                     <h6 class="tit">
                         [마감]&#60;2025년 게임 탐험대(구,<br>
@@ -135,7 +190,7 @@
                         탐험대 (구.넷마블견학프로그램)&#62; 참여 학교/<br>
                         기관을 모집합니다. &#60;게임 탐험대&#62;는 게임 산업...
                     </p>
-    
+
                     <p class="date">
                         공지사항 · 2025.04.18
                     </p>
@@ -147,7 +202,7 @@
     <footer>
         <div class="container f_c">
             <a href="#" class="logo2"><img src="./img/logo2.png" alt=""></a>
-    
+
             <select>
                 <option>Family Site</option>
                 <option>넷마블게임포털</option>
@@ -155,9 +210,9 @@
                 <option>어깨동무문고</option>
                 <option>넷마블게임박물관</option>
             </select>
-    
+
             <p class="address">서울특별시 구로구 디지털26길 38, G-Tower 넷마블<br>Copyright ⓒ Netmarble Corp.All Rights Reserved.</p>
-    
+
             <ul class="list">
                 <li><a href="#">개인정보처리방침</a></li>
                 <li>I</li>
@@ -178,4 +233,5 @@
         </div>
     </footer>
 </body>
+
 </html>

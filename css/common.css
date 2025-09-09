@@ -1,9 +1,12 @@
 h2.title {
     font-size: 80px;
+    color:white;
 }
 
 h2.sub {
     font-size: 24px;
+    color:white;
+    margin-top:20px;
 }
 
 h3.tit {
